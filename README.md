@@ -119,7 +119,7 @@ src/
 
 ## Lighthouse Screenshot
 
-![Lighthouse Score](./lighthouse.png)
+![Lighthouse Score](./lighthouse.jpeg)
 ---
 
 ## Auto-Disqualification Checklist
