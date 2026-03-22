@@ -119,9 +119,7 @@ src/
 
 ## Lighthouse Screenshot
 
-> Run `npm run build && npm run preview`, then open Chrome DevTools → Lighthouse → Desktop → Generate Report.
-> Attach screenshot here before submission.
-
+![Lighthouse Score](./lighthouse.png)
 ---
 
 ## Auto-Disqualification Checklist
