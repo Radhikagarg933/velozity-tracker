@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #05080f;
+    color: #d1dae4;
+  }
+
+  /* Slim scrollbars */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Syne', sans-serif;
+  }
+
+  .drag-ghost {
+    opacity: 0.5;
+    transform: scale(1.02) rotate(1deg);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+  }
+}
+
+/* Date input dark mode fix */
+input[type='date']::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+  cursor: pointer;
+}
+
+/* Select option dark styling */
+select option {
+  background-color: #161b24;
+  color: #d1dae4;
+}
+
+/* Dragging state */
+[draggable='true'] {
+  -webkit-user-drag: element;
+}
+
+[draggable='true']:active {
+  cursor: grabbing;
+}
