@@ -32,7 +32,6 @@ npm run preview
 npx vercel --prod
 ```
 
-Or connect your GitHub repo to [vercel.com](https://vercel.com) for automatic deploys.
 
 ---
 
