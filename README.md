@@ -19,22 +19,6 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173)
 
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
-### Deploy to Vercel
-
-```bash
-npx vercel --prod
-```
-
-
----
-
 ## State Management Decision: React Context + useReducer
 
 I chose **React Context + useReducer** over Zustand for the following reasons:
