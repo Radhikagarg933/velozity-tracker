@@ -113,5 +113,4 @@ src/
 | No virtual scrolling library | ✅ Custom hook from scratch |
 | No UI component library | ✅ All components hand-built |
 | TypeScript throughout | ✅ Strict mode enabled |
-| Live deployed link | ✅ Deploy to Vercel/Netlify |
 | React + TypeScript | ✅ |
